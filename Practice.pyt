@@ -56,7 +56,6 @@ def prime_number_checker(num):
 num = int(input('Enter a number: '))
 print(prime_number_checker(num))
 
-'''
 def days_in_month(month, year):
     month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     if month < 1 or month > 12:
@@ -83,3 +82,8 @@ def day_of_week(day, month, year):
     days = ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
     return days[day_of_week]  
 print(day_of_week(day, month, year))
+'''
+x=0
+for i in range(1,99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999):
+    print(i)
+    x += 1
