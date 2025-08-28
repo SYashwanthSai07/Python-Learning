@@ -83,7 +83,4 @@ def day_of_week(day, month, year):
     return days[day_of_week]  
 print(day_of_week(day, month, year))
 '''
-x=0
-for i in range(1,99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999):
-    print(i)
-    x += 1
+
