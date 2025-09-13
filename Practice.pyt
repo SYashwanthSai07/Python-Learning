@@ -43,7 +43,7 @@ def year_calculator(year):
         return f'{year} is not a leap year'
 year = int(input('Enter a year: '))
 print(year_calculator(year))
-
+''''''
 def prime_number_checker(num):
     if num > 1:
         for i in range(2, int(num/2)+1):
@@ -55,7 +55,7 @@ def prime_number_checker(num):
         return f'{num} is not a prime number'
 num = int(input('Enter a number: '))
 print(prime_number_checker(num))
-
+'''''''
 def days_in_month(month, year):
     month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     if month < 1 or month > 12:
